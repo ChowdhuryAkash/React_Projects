@@ -1,0 +1,24 @@
+{/* <div className="tours">
+        <div className="middle">
+        <div className="tour">
+            <div className="top" style={{backgroundImage:"url('https://www.course-api.com/images/tours/tour-1.jpeg')"}}>
+                
+
+            </div>
+            <div className="bottom"> 
+            <div className="b-top">
+                <p>new york makino serios priot dioal</p>
+                <span>$ 1,995</span>
+            </div>
+            <div className="b-mid">
+                <p>Paris is synonymous with the finest things that culture can offer — in art, fashion, food, literature, and ideas. On this tour, your Paris-savvy Rick Steves guide will immerse you in the very best of ...Read More</p>
+            </div>
+            <div className="b-bottom">
+                <button>Not interested</button>
+            </div>
+            </div>
+        </div>
+        </div>
+        
+    
+    </div> */}

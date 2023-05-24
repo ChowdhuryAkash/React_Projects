@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  
+  font-family: sans-serif;
+  overflow-x:hidden;
+}
+.tours{
+
+}
+.Loading{
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.Loading img{
+  width: 100px;
+  display: block;
+  margin: 250px auto;
+}
+
+
+.tours{
+  width: 100vw;
+  height: auto;
+}
+.middle{
+  width: auto;
+  margin: auto;
+  padding: 30px;
+}
+.tours .tour{
+  width: 550px;
+  height: auto;
+  display: block;
+  margin: auto;
+  box-shadow: 0px 0px 80px rgba(0,0,0,.3);
+  padding-bottom: 1px;
+  border-radius: 5px;
+}
+.tours .tour .top{
+  height: 450px;
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+}
+.b-top{
+  display: flex;
+  padding:30px;
+  justify-content: space-between;
+}
+.b-top p{
+  width: 70%;
+  font-size: 25px;
+  font-weight: 500;
+}
+.b-top span{
+  color:rgb(30, 144, 255);
+  height: 25px;
+  font-weight: bold;
+  background: rgba(30, 144, 255,.2);
+  padding: 4px 8px;
+  border-radius: 15px;
+}
+.b-mid{
+  padding: 0 30px;
+  text-align: center;
+}
+.b-mid p{
+  color:#555;
+}
+.btn{
+  width: 300px;
+  height: 40px;
+  max-height: 40px;
+  background: none;
+  border:2px solid rgba(255,0,0,.2);
+  display: block;
+  margin: 30px auto;
+  border-radius: 5px;
+  color:rgba(255,0,0,.5);
+  font-weight: bold;
+  font-size: 20px;
+}
+.no-data{
+  text-align: center;
+  margin: 50px auto;
+  font-size: 25px;
+  
+
+}
+.heading{
+  text-align: center;
+  margin: 50px auto;
+  font-size: 25px;
+}
