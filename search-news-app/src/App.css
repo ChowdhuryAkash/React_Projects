@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: sans-serif;
+
+}
+
+
+.search-box{
+  width: 80%;
+  margin: 50px auto;
+}
+.search-box h5{
+  font-size: 35px;
+}
+.search-box input{
+  width: 500px;
+  margin-top: 50px;
+  font-size: 25px;
+  background: transparent;
+  outline: none;
+  border:none;
+  border-bottom:2px solid rgb(152, 255, 152);
+  padding: 5px;
+  color:#777;
+}
+.pg{
+  width: 350px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pg button{
+  width: 100px;
+  background: rgba(152, 255, 152,.6);
+  border: none;
+  border-radius: 7px;
+  height: 35px;
+  color:#000;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+.pg p{
+  font-size: 25px;
+}
+
+.news{
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px auto;
+
+}
+.card{
+  width: 590px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0,0,0,.1);
+  margin-top: 40px;
+}
+.card h5{
+  font-size: 20px;
+  margin: 10px 0;
+}
+.card p{
+ color:rgba(0,0,0,.5);
+}
+.card .btns{
+margin-top: 20px;
+}
+.card .more{
+  color:#48af48;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.card .delete{
+  color:red;
+  cursor: pointer;
+}
+.loading{
+  width: 100%;
+  height: auto;
+  margin-top: 200px;
+}
+.loading img{
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
