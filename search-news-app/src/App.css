@@ -93,3 +93,14 @@ margin-top: 20px;
   display: block;
   margin: auto;
 }
+
+@media screen and (max-width: 480px) {
+  html{
+    padding-bottom: 20px;
+  }
+  .search-box input{
+    width:100%;
+
+  }
+
+}
